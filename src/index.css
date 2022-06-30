@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: 'poppins-bold';
+  src: url(./fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: 'poppins-light';
+  src: url(./fonts/Poppins-Light.ttf);
+}
+
+@layer components {
+  .title {
+    @apply text-red-500
+  }
+  .glass {
+  background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+  }
+  .gradient {
+    @apply bg-gradient-to-r from-[#474BFF] to-[#BC48FF] bg-clip-text text-transparent
+  }
 }
