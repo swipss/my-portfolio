@@ -14,7 +14,7 @@ export const Home = () => {
       <header className="fixed">
         <Header />
       </header>
-      <main className="w-full absolute mt-[100vh] bg-white shadow-lg shadow-black">
+      <main className="w-full absolute mt-[100vh] bg-white shadow-lg shadow-black rounded-t-2xl">
         <section>
           <About />
         </section>
