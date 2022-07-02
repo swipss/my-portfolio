@@ -10,7 +10,7 @@ export const Work = ({ project, index }) => {
         <h2 className="gradient text-3xl font-poppinslight text-center lg:text-5xl">
           {name}
         </h2>
-        <p className="text-center my-7 font-poppinslight w-6/12 mx-auto">
+        <p className="text-center my-7 font-poppinslight md:w-6/12 mx-auto">
           <span className="font-poppinsbold">{name} </span>
           {desc}
         </p>
