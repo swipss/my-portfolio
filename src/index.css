@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/*  */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -30,9 +32,7 @@ code {
 }
 
 @layer components {
-  .title {
-    @apply text-red-500
-  }
+
   .glass {
   background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -42,4 +42,30 @@ code {
   .gradient {
     @apply bg-gradient-to-r from-[#474BFF] to-[#BC48FF] bg-clip-text text-transparent
   }
+  .blob {
+    border-radius: 69% 31% 70% 30% / 30% 30% 70% 70%;
+    transition: border-radius 400ms ease-in-out
+  }
+  .blob:hover {
+    border-radius: 41% 59% 51% 49% / 42% 41% 59% 58%
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #ededed;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#474BFF, #BC48FF);
+    border-radius: 100vh
+  }
+  p {
+    @apply leading-9 font-poppinslight text-lg lg:text-xl lg:leading-9
+  }
+  
 }
