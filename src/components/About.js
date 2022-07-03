@@ -22,13 +22,25 @@ export const About = () => {
                 creating eye pleasing, user-friendly mobile applications for iOS
                 and Android.
               </p>
-              <div className="flex justify-center bg-green-200 items-center px-2 py-1 rounded-md mt-5 w-40">
-                <div className=" bg-green-500 rounded-full w-3 h-3 mr-2" />
-                <p className="font-poppinslight text-base">Open to work</p>
+              <div className="flex flex-col lg:flex-row items-center justify-center">
+                <div className="flex justify-center bg-green-200 items-center px-2 py-1 rounded-md mt-5 w-40 lg:mr-5">
+                  <div className=" bg-green-500 rounded-full w-3 h-3 mr-2" />
+                  <p className="font-poppinslight text-base">Open to work</p>
+                </div>
+                <div className="flex items-center justify-center mt-7 hover:bg-gradient-to-r from-[#474BFF] to-[#BC48FF] border hover:border-white border-[#BC48FF] px-4 py-2 rounded-full hover:text-white  transition ease-out ">
+                  <img
+                    src={require("../images/download.png")}
+                    className="h-7 mr-2"
+                  />
+                  <a
+                    href={require("../data/CV.pdf")}
+                    download
+                    className="font-poppinslight"
+                  >
+                    Download my CV
+                  </a>
+                </div>
               </div>
-              <a href="../data/CV_Sten_Vassiljev.pdf" download>
-                Download my CV
-              </a>
             </div>
           </div>
         </div>
