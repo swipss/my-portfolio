@@ -29,7 +29,6 @@ export const Navbar = () => {
             />
           </a>
         </div>
-
         <img
           src={require("../images/moon.png")}
           className="h-8 cursor-pointer"
