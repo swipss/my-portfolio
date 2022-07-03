@@ -1,5 +1,5 @@
 import React from "react";
-
+// comment
 export const Navbar = () => {
   return (
     <div className="h-20 glass px-5 fixed w-full z-10">
