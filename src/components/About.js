@@ -26,6 +26,9 @@ export const About = () => {
                 <div className=" bg-green-500 rounded-full w-3 h-3 mr-2" />
                 <p className="font-poppinslight text-base">Open to work</p>
               </div>
+              <a href="../data/CV_Sten_Vassiljev.pdf" download>
+                Download my CV
+              </a>
             </div>
           </div>
         </div>

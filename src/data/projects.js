@@ -39,7 +39,7 @@ export const projects = [
       "React Native",
       "Async Storage",
       "Swipe List",
-      "Atom",
+      "Recoil",
       "Context API",
       "Wagmi Charts",
     ],
