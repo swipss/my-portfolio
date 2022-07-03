@@ -22,11 +22,9 @@ export const About = () => {
                 creating eye pleasing, user-friendly mobile applications for iOS
                 and Android.
               </p>
-              <div className="flex justify-center bg-green-200 items-center px-2 py-1 rounded-md mt-5 w-72">
+              <div className="flex justify-center bg-green-200 items-center px-2 py-1 rounded-md mt-5 w-40">
                 <div className=" bg-green-500 rounded-full w-3 h-3 mr-2" />
-                <p className="font-poppinslight text-base">
-                  Looking for job opportunities
-                </p>
+                <p className="font-poppinslight text-base">Open to work</p>
               </div>
             </div>
           </div>
