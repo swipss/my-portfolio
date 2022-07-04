@@ -14,7 +14,7 @@ export const Navbar = () => {
               alt=""
             />
           </a>
-          <a>
+          <a href="https://www.linkedin.com/in/stenvassiljev/">
             <img
               src={require("../images/linkedin-circled.png")}
               className="h-8 cursor-pointer"
